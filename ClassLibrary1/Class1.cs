@@ -25,7 +25,7 @@ namespace ClassLibrary1
             {
                 Display();
                 userInput = int.Parse(Console.ReadLine());
-                result(userInput);
+                Result(userInput);
             }
 
             while (userInput != -1);
@@ -49,7 +49,7 @@ namespace ClassLibrary1
             }
         }
 
-        public category result(int value)
+        public category Result(int value)
         {
 
 
